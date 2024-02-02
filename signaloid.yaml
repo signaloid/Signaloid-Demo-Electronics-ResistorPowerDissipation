@@ -1,0 +1,9 @@
+# The TraceVariables entry informs the Signaloid Cloud Compute Engine which
+# variable to trace when running on the Signaloid C0-Reference
+# microarchitecture. The Signaloid C0-Athens and C0-Zurich microarchitectures
+# feature native automatic uncertainty tracking and do not require or use this
+# information.
+TraceVariables:
+  - File: "main.c"
+    LineNumber: 38
+    Expression: "P"
